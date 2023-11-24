@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartNews</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#latest-article">Article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trending">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signup">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn-get" href="#latest-news">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-6" data-aos="fade-right">
+                    <p>Recently Post</p>
+                    <h1>Two houses were devoured by fire, it is known that the cause was a short electric current.</h1>
+                    <button type="button" class="btn-home" disabled>
+                        <a href="./pages/news.html">Read Article</a>
+                    </button>
+                </div>
+                <div class="col-6">
+                    <!-- <img src="./assets/images/Image.png" alt="image-header"> -->
+                    <img src="./assets/images/Image.png" class="img-fluid" alt="image-header">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero -->
+
+    <!-- section -->
+    <section class="latest-news" id="latest-news">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                    <h1 data-aos="fade-right">
+                        Latest News
+                    </h1>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn-latest" data-aos="fade-left">
+                        <a href="#" >See All</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card-latest">
+                <div class="row row-cols-1 row-cols-md-3 g-3" data-aos="fade-right">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section -->
+
+    <!-- section -->
+    <section class="latest-article" id="latest-article">
+        <div class="container">
+            <h1 data-aos="fade-right">
+                Latest Article
+            </h1>
+            <div class="card-latest">
+                <div class="row row-cols-1 row-cols-md-3 g-3" data-aos="fade-up">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="image-card">
+                                    <img src="./assets/images/image-card.png" alt="image-card">
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body ">
+                                <div class="image-card ">
+                                    <img src="./assets/images/image-card.png " alt="image-card ">
+                                </div>
+                                <div class="time ">
+                                    <img src="./assets/images/icon-clock.png " alt=" "> 3 MINS
+                                </div>
+                                <h5 class="card-title ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text ">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html ">Read More<img src="./assets/images/arrow-right-circle.png " alt=" "></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="image-card">
+                                    <img src="./assets/images/image-card.png" alt="image-card">
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section -->
+
+    <!-- section -->
+    <section class="trending" id="trending">
+        <div class="container">
+            <h1 data-aos="fade-right">
+                Trending Topic
+            </h1>
+            <div class="card-trending">
+                <div class="row">
+                    <div class="col-8" data-aos="fade-right">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="image-card">
+                                    <img src="./assets/images/image-trending.png" alt="image-card">
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 4 HOURS
+                                </div>
+                                <h1 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h1>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum
+                                    dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor
+                                    amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. Lorem ipsum dolor amet,
+                                    Consectetur adipiscing elit. Purus consequat .....</p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4" data-aos="fade-up">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="time">
+                                    <img src="./assets/images/icon-clock.png" alt=""> 3 MINS
+                                </div>
+                                <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus consequat.</h5>
+                                <p class="card-text">Lorem ipsum dolor amet, Consectetur adipiscing elit. Purus consequat. onsectetur adipiscing elit. onsectetur adipiscing elit. </p>
+                                <a href="./pages/news.html">Read More<img src="./assets/images/arrow-right-circle.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section -->
+
+    <section class="search-box" data-aos="zoom-in" id="signup">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1>
+                        Sign up For Newsletter To Stay Up To Date
+                    </h1>
+                </div>
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <a href="#"><span class="input-group-text" id="basic-addon2">SignUp</span></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="logo">
+                        <img src="./assets/images/logo.png">
+                        <div class="title">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing vulputate velit enim pretium. Montes, dictum pellentesque pulvinar orci. </p>
+                        </div>
+
+                        <div class="contact">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="./assets/images/send.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./assets/images/twitter.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./assets/images/youtube.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h5>Smart News</h5>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Fast Update</a></li>
+                            <li><a href="#">Free News</a></li>
+                            <li><a href="#">Up To Date</a></li>
+                            <li><a href="#">Accurate</a></li>
+                            <li><a href="#">Real Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h5>Featured</h5>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Article</a></li>
+                            <li><a href="#">Trending Topic</a></li>
+                            <li><a href="#">All</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h5>Platform</h5>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Pear To Pear</a></li>
+                            <li><a href="#">Event Registration</a></li>
+                            <li><a href="#">Integration</a></li>
+                            <li><a href="#">Message</a></li>
+                            <li><a href="#">News Framework</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="./asset/js/bootstrap.js"></script>
+<script src="./asset/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+</script>
+
+</html>
