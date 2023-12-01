@@ -2,7 +2,7 @@
 # Smart News UI Template
 
 # Demo
-- [Smart News](https://m-edx.github.io/smartnews/)
+- [Smart News](https://masedx.github.io/smartnews/)
 
 # Features
 - Bootstrap 5
